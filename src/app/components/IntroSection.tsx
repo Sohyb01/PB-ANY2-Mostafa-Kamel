@@ -6,7 +6,13 @@ const IntroSection = () => {
   return (
     <section className="py-8">
       <div className="text-center flex flex-col items-center justify-center gap-4">
-        <Image src={introData.imageUrl} width={262} height={262} alt="Image" />
+        <Image
+          className="rounded-full"
+          src={introData.imageUrl}
+          width={262}
+          height={262}
+          alt="Image"
+        />
 
         <h6 className="font-medium text-gray-600 text-lg uppercase">
           {introData.name}

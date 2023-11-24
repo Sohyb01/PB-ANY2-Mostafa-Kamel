@@ -3,7 +3,7 @@ export const introData = {
   title: "Artificial Intelligence Engineer",
   description:
     "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius iste rerum magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit velit voluptatem?",
-  imageUrl: "/home-img.png", // Relative or online URL
+  imageUrl: "/pfp.png", // Relative or online URL
 };
 
 export const projectsData = [
