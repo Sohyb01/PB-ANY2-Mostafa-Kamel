@@ -1,76 +1,119 @@
 export const introData = {
-  name: "FIRSTNAME LASTNAME",
-  title: "Artificial Intelligence Engineer",
+  name: "Ahmed Reda",
+  title: "Artificial Intelligence Engineer - Co-Founder & COO at PES",
   description:
-    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius iste rerum magni! Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit reprehenderit velit voluptatem?",
+    "I am a graduate of the Faculty of Artificial Intelligence – Kafr El-Sheikh University, with a bachelor's degree in Artificial Intelligence. I am highly interested in technology, especially artificial intelligence, and things related to it.",
   imageUrl: "/pfp.png", // Relative or online URL
 };
 
 export const projectsData = [
   {
-    title: "Project Title",
+    title: "Face Recognition",
     description:
-      "Project Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil modi eveniet fugit ut vitae! Sapiente natus dolor perspiciatis pariatur mollitia!",
+      "Face detection and recognition using Python (OpenCV), Artificial Intelligence, and Machine Learning",
     url: "", // Optional URL
   },
   {
-    title: "Project Title",
+    title: "Fire Detection",
+    description: "Fire detection and alarm using Computer Vision",
+    url: "", // Optional URL
+  },
+  {
+    title: "Virtual Assistant",
+    description: "A virtual assistant which uses modern NLP technologies",
+    url: "", // Optional URL
+  },
+  {
+    title: "Sekhmet - Military Robot",
     description:
-      "Project Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil modi eveniet fugit ut vitae! Sapiente natus dolor perspiciatis pariatur mollitia!",
+      "An AI-Powered Multi-tasking Military Security and Communications Robot",
     url: "", // Optional URL
   },
 ];
 
 export const educationData = [
   {
-    title: "PLACE / CERTIFICATE",
-    date: "YYYY-YYYY",
-    description:
-      "Project Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil modi eveniet fugit ut vitae! Sapiente natus dolor perspiciatis pariatur mollitia!",
+    title: "Kafr El-Sheikh University / Bachelor's degree in AI",
+    date: "2019-2023",
+    description: "My University Degree which I Acquired in 2023",
     url: "", // Optional URL
   },
   {
-    title: "PLACE / CERTIFICATE",
-    date: "YYYY-YYYY",
-    description:
-      "Project Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil modi eveniet fugit ut vitae! Sapiente natus dolor perspiciatis pariatur mollitia!",
+    title: "IBM / Data analysis with Python",
+    date: "2022",
+    description: "-",
     url: "", // Optional URL
   },
   {
-    title: "PLACE / CERTIFICATE",
-    date: "YYYY-YYYY",
-    description:
-      "Project Description Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil modi eveniet fugit ut vitae! Sapiente natus dolor perspiciatis pariatur mollitia!",
+    title: "Stanford University / Certificate in Machine Learning",
+    date: "2022",
+    description: "-",
+    url: "", // Optional URL
+  },
+  {
+    title: "Huawei ICT Academy Egypt / HCIA-IOT",
+    date: "2023",
+    description: "-",
+    url: "", // Optional URL
+  },
+  {
+    title: "IBM / Computer Vision and Image Processing",
+    date: "2022",
+    description: "-",
     url: "", // Optional URL
   },
 ];
 
 export const experienceData = [
   {
-    title: "INSTITUTE NAME",
-    city: "CITY, COUNTRY",
-    year: "YYYY-YYYY",
-    position: "Lorem Ipsum dolor Sit Amet",
+    title: "Programmer's Elite School",
+    city: "Alexandria, Egypt",
+    year: "2022-Present",
+    position: "Co-Founder, Cheif Operating Officer",
+  },
+  {
+    title: "Voice of Kafr El-Dawar Charity Association",
+    city: "Kafr El-Dawar, Egypt",
+    year: "2016-Present",
+    position: "Co-Founder, Member of the Board of Directors",
+  },
+  {
+    title: "Google Developer Student Clubs - GDSC Damanhour",
+    city: "Damanhour, Egypt",
+    year: "2019-2022",
+    position: "Machine Learning Engineer",
+  },
+  {
+    title: "Communications and Information Technology, Nation's Future Party",
+    city: "Kafr El-Dawar, Egypt",
+    year: "2022-Present",
+    position: "Assistant Secretary General",
+  },
+  {
+    title: "Al Hanan Foundation for the Care of Orphaned Girls",
+    city: "Kafr El-Dawar, Egypt",
+    year: "2019– 2022",
+    position: "Member of the Board of Directors",
+  },
+  {
+    title: "Faculty of Artificial Intelligence - Kafr El-Sheikh University.",
+    city: "Kafr El-Sheikh, Egypt",
+    year: "2022-2023",
+    position: "President of the Student Union",
   },
 ];
 
 export const testimonialsData = [
   {
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id et voluptas ea ab ut repudiandae dolorum cupiditate adipisci ad ipsam?",
-    name: "Firstname Lastname",
-    title: "CEO at XYZ",
+    description: "Strategy and National Security Award",
+    name: "Nasser Military Academy",
   },
   {
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id et voluptas ea ab ut repudiandae dolorum cupiditate adipisci ad ipsam?",
-    name: "Firstname Lastname",
-    title: "CEO at XYZ",
+    description: "Ideal Student Award",
+    name: "Kafr El-Sheikh University",
   },
   {
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Id et voluptas ea ab ut repudiandae dolorum cupiditate adipisci ad ipsam?",
-    name: "Firstname Lastname",
-    title: "CEO at XYZ",
+    description: "1st Place Award",
+    name: "Foundation for preparing leaders for Administrative Sciences and Development",
   },
 ];
