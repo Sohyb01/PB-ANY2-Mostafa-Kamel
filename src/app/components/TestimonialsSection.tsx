@@ -10,7 +10,7 @@ const TestimonialsSection = () => {
         </h1>
 
         <p className="font-normal text-gray-500 text-base mb-8">
-          Below is a summary of Testimonials & Recommendations of me
+          Below is a summary of Awards I have received
         </p>
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
