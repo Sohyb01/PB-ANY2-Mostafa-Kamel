@@ -4,7 +4,7 @@ import { introData } from "../lib/data";
 
 const IntroSection = () => {
   return (
-    <section className="py-8">
+    <section id="intro" className="py-8">
       <div className="text-center flex flex-col items-center justify-center gap-8">
         <Image
           className="rounded-full"
