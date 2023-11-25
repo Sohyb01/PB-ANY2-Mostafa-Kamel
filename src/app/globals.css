@@ -8,12 +8,12 @@ html {
 
 .section__styles{
   @apply 
-  w-full xl:max-w-screen-xl
+  w-full
   px-4 xl:px-20
   mx-auto
 }
 * {
-  line-height: 140%;
+  line-height: 144%;
 }
 .title-text{
   line-height: 100%;

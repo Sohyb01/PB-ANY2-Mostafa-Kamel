@@ -3,28 +3,32 @@ import { testimonialsData } from "../lib/data";
 
 const TestimonialsSection = () => {
   return (
-    <section className="py-10 md:py-16">
-      <div className="container max-w-screen-xl mx-auto px-4">
-        <h1 className="font-medium text-gray-700 text-3xl mb-5 title-text">
-          Awards
+    <section className="section__styles py-[72px] bg-slate-100 flex flex-col gap-6">
+      {/* Title and Subheader */}
+      <div className="flex flex-col gap-1 text-start">
+        <h1 className="font-medium text-gray-700 text-2xl title-text">
+          Awards & Recommendations
         </h1>
-
-        <p className="font-normal text-gray-500 text-base mb-8">
-          Below is a summary of Awards I have received
+        <p className="font-normal text-gray-500 text-base">
+          Below are some of my Awards & Recommendations
         </p>
-        {/* Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {testimonialsData.map((testimonial, index) => (
-            <div key={index} className="bg-white p-6 rounded-md">
-              <h6 className="font-semibold text-gray-700">
-                {testimonial.name}{" "}
-              </h6>
-              <p className="font-normal text-gray-500 text-base mb-4">
-                {testimonial.description}
-              </p>
-            </div>
-          ))}
-        </div>
+      </div>
+      {/* Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {testimonialsData.map((testimonial, index) => (
+          <div
+            key={index}
+            className="bg-white p-4 rounded-[6px] shadow-lg flex flex-col gap-2"
+          >
+            <p className="text-slate-700 font-bold">{testimonial.name}</p>
+            <p className="font-normal text-slate-500">
+              {testimonial.description}
+            </p>
+            <p className="text-end text-lg w-full font-bold tracking-[3px] text-slate-400">
+              {testimonial.date}
+            </p>
+          </div>
+        ))}
       </div>
     </section>
   );
