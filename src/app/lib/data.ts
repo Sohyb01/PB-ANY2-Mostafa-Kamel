@@ -1,8 +1,8 @@
 export const introData = {
   name: "AHMED REDA ABD EL-NAEEM",
-  title: "Artificial Intelligence Engineer - Co-Founder & COO at PES",
+  title: "Artificial Intelligence Engineer",
   description:
-    "I am a graduate of the Faculty of Artificial Intelligence – Kafr El-Sheikh University, with a bachelor's degree in Artificial Intelligence. I am highly interested in technology, especially artificial intelligence, and things related to it.",
+    "Graduate of the Faculty of Artificial Intelligence – Kafr El-Sheikh University. Co-Founder & COO at Programmer's Elite School.",
   imageUrl: "/pfp.png", // Relative or online URL
 };
 
