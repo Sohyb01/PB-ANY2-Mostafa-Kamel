@@ -12,6 +12,9 @@ html {
   px-4 xl:px-20
   mx-auto
 }
+.max-w-container{
+ @apply max-w-screen-lg mx-auto
+}
 * {
   line-height: 144%;
 }

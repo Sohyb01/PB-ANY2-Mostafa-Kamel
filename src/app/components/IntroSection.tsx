@@ -32,7 +32,7 @@ const IntroSection = () => {
           </h1>
           {/* Description and CTA */}
           <div className="flex flex-col items-center gap-8">
-            <p className="font-normal text-gray-600 text-lg max-w-[60ch]">
+            <p className="font-normal text-gray-600 text-lg">
               {introData.description}
             </p>
             {/* CTA Buttons */}

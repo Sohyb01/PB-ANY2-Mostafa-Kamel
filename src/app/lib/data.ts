@@ -70,36 +70,42 @@ export const experienceData = [
     city: "Alexandria, Egypt",
     year: "2022-Present",
     position: "Co-Founder, Cheif Operating Officer",
+    description: [],
   },
   {
     title: "Voice of Kafr El-Dawar Charity Association",
     city: "Kafr El-Dawar, Egypt",
     year: "2016-Present",
     position: "Co-Founder, Member of the Board of Directors",
+    description: [],
   },
   {
     title: "Google Developer Student Clubs - GDSC Damanhour",
     city: "Damanhour, Egypt",
     year: "2019-2022",
     position: "Machine Learning Engineer",
+    description: [],
   },
   {
     title: "Communications and Information Technology, Nation's Future Party",
     city: "Kafr El-Dawar, Egypt",
     year: "2022-Present",
     position: "Assistant Secretary General",
+    description: [],
   },
   {
     title: "Al Hanan Foundation for the Care of Orphaned Girls",
     city: "Kafr El-Dawar, Egypt",
     year: "2019– 2022",
     position: "Member of the Board of Directors",
+    description: [],
   },
   {
     title: "Faculty of Artificial Intelligence - Kafr El-Sheikh University",
     city: "Kafr El-Sheikh, Egypt",
     year: "2022-2023",
     position: "President of the Student Union",
+    description: [],
   },
 ];
 
