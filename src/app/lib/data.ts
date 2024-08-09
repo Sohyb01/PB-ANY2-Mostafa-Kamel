@@ -1,34 +1,34 @@
 export const introData = {
-  name: "AHMED REDA ABD EL-NAEEM",
-  title: "Artificial Intelligence Engineer",
+  name: "MOSTAFA KAMEL ALI",
+  title: "Artificial Intelligence Engineer & Media Professional",
   description:
-    "Graduate of the Faculty of Artificial Intelligence – Kafr El-Sheikh University. Co-Founder & COO at Programmer's Elite School.",
+    "Co-Founder & CEO at Programmer's Elite School. Graduate of the Faculty of Artificial Intelligence – Kafr El-Sheikh University",
   imageUrl: "/pfp.png", // Relative or online URL
 };
 
 export const projectsData = [
-  {
-    title: "Face Recognition",
-    description:
-      "Face detection and recognition using Python (OpenCV), Artificial Intelligence, and Machine Learning.",
-    url: null, // Optional URL
-  },
-  {
-    title: "Fire Detection",
-    description: "Fire detection and alarm using Computer Vision.",
-    url: null, // Optional URL
-  },
-  {
-    title: "Virtual Assistant",
-    description: "A virtual assistant which uses modern NLP technologies.",
-    url: null, // Optional URL
-  },
-  {
-    title: "Sekhmet - Military Robot",
-    description:
-      "An AI-Powered Multi-tasking Military Security and Communications Robot.",
-    url: null, // Optional URL
-  },
+  // {
+  //   title: "Face Recognition",
+  //   description:
+  //     "Face detection and recognition using Python (OpenCV), Artificial Intelligence, and Machine Learning.",
+  //   url: null, // Optional URL
+  // },
+  // {
+  //   title: "Fire Detection",
+  //   description: "Fire detection and alarm using Computer Vision.",
+  //   url: null, // Optional URL
+  // },
+  // {
+  //   title: "Virtual Assistant",
+  //   description: "A virtual assistant which uses modern NLP technologies.",
+  //   url: null, // Optional URL
+  // },
+  // {
+  //   title: "Sekhmet - Military Robot",
+  //   description:
+  //     "An AI-Powered Multi-tasking Military Security and Communications Robot.",
+  //   url: null, // Optional URL
+  // },
 ];
 
 export const educationData = [
@@ -39,27 +39,63 @@ export const educationData = [
     url: "", // Optional URL
   },
   {
-    title: "Data Analysis with Python",
+    title: "Data Science Orientation, Coursera (100)",
     date: "2022",
-    description: "Certificate from IBM",
+    description: "Orientation form Coursera",
     url: "", // Optional URL
   },
   {
-    title: "Machine Learning with Python",
+    title: "Machine Learning (95)",
     date: "2022",
-    description: "Certificate from Stanford University",
+    description: "University of London",
     url: "", // Optional URL
   },
   {
-    title: "HCIA-IOT",
-    date: "2023",
-    description: "Certificate from Huawei ICT Academy Egypt",
+    title: "HCIA-AI (98)",
+    date: "2022",
+    description: "Certificate from Huawei Academy Egypt",
     url: "", // Optional URL
   },
   {
-    title: "Computer Vision and Image Processing",
+    title: "Data Science (77)",
+    date: "2021",
+    description: "IBM",
+    url: "", // Optional URL
+  },
+  {
+    title: "Supervised Machine Learning: Regression and Classification (100)",
     date: "2022",
-    description: "Certificate from IBM",
+    description: "Standford Online",
+    url: "", // Optional URL
+  },
+  {
+    title: "Advanced Learning Algorithms (100)",
+    date: "2022",
+    description: "DeepLearning.AI",
+    url: "", // Optional URL
+  },
+  {
+    title: "Python Programming (100)",
+    date: "2021",
+    description: "ITI",
+    url: "", // Optional URL
+  },
+  {
+    title: "E-Learning Fundamentals (90)",
+    date: "2022",
+    description: "ITI",
+    url: "", // Optional URL
+  },
+  {
+    title: "Arduino Certification (95)",
+    date: "2019",
+    description: "ST SMART Company",
+    url: "", // Optional URL
+  },
+  {
+    title: "Strategy & National Security (100)",
+    date: "2021",
+    description: "Nasser Military Academy",
     url: "", // Optional URL
   },
 ];
@@ -69,102 +105,116 @@ export const experienceData = [
     title: "Programmer's Elite School",
     city: "Alexandria, Egypt",
     year: "2022-Present",
-    position: "Co-Founder, Cheif Operating Officer",
+    position: "Co-Founder, Cheif Executive Officer",
     description: [],
   },
   {
-    title: "Voice of Kafr El-Dawar Charity Association",
-    city: "Kafr El-Dawar, Egypt",
-    year: "2016-Present",
-    position: "Co-Founder, Member of the Board of Directors",
+    title: "Egypt Future Initiative, Ministry of Youth and Sports (Part-time)",
+    city: "Alexandria, Egypt",
+    year: "2021",
+    position: "Founder",
     description: [],
   },
   {
-    title: "Google Developer Student Clubs - GDSC Damanhour",
-    city: "Damanhour, Egypt",
-    year: "2019-2022",
-    position: "Machine Learning Engineer",
+    title: "Data Science Internship (Orange)",
+    city: "Cairo, Egypt",
+    year: "2022",
+    position: "Intern",
     description: [],
   },
   {
-    title: "Communications and Information Technology, Nation's Future Party",
-    city: "Kafr El-Dawar, Egypt",
-    year: "2022-Present",
-    position: "Assistant Secretary General",
+    title: "Data Science - Google Developer Student Clubs (Part-time)",
+    city: "Alexandria, Egypt",
+    year: "2021",
+    position: "Member",
     description: [],
   },
   {
-    title: "Al Hanan Foundation for the Care of Orphaned Girls",
-    city: "Kafr El-Dawar, Egypt",
-    year: "2019– 2022",
-    position: "Member of the Board of Directors",
-    description: [],
-  },
-  {
-    title: "Faculty of Artificial Intelligence - Kafr El-Sheikh University",
+    title: "Student Union President",
     city: "Kafr El-Sheikh, Egypt",
-    year: "2022-2023",
-    position: "President of the Student Union",
+    year: "2020",
+    position: "President",
+    description: [],
+  },
+  {
+    title: "Head of Marketing - OBM Education (Part-time)",
+    city: "Alexandria, Egypt",
+    year: "2019",
+    position: "Head",
+    description: [],
+  },
+  {
+    title: "ZAKA Branch President",
+    city: "Kafr El-Sheikh, Egypt",
+    year: "2022-Present",
+    position: "Head",
     description: [],
   },
 ];
 
 export const testimonialsData = [
-  {
-    name: "Strategy and National Security Award",
-    description: "Nasser Military Academy",
-    date: "2022",
-  },
-  {
-    name: "Ideal Student Award",
-    description: "Kafr El-Sheikh University",
-    date: "2022",
-  },
-  {
-    name: "Foundation for preparing leaders for Administrative Sciences and Development",
-    description: "1st Place Award",
-    date: "2021",
-  },
+  // {
+  //   name: "Strategy and National Security Award",
+  //   description: "Nasser Military Academy",
+  //   date: "2022",
+  // },
+  // {
+  //   name: "Ideal Student Award",
+  //   description: "Kafr El-Sheikh University",
+  //   date: "2022",
+  // },
+  // {
+  //   name: "Foundation for preparing leaders for Administrative Sciences and Development",
+  //   description: "1st Place Award",
+  //   date: "2021",
+  // },
 ];
 
 export const skillsData = [
-  "Operations Management",
-  "Digital Marketing",
-  "Negotiation",
-  "Graphic Design",
+  "Media Buying",
+  "Marketing",
+  "Social Media Management",
+  "Project Management",
+  "Technical Leadership",
   "Communication Skills",
   "Financial Reporting",
   "Text Processors",
-  "Spreadsheets",
-  "Presentations",
+  "Data Science",
+  "Web Development",
+  "Leadership",
+  "Research",
+  "Time Management",
+  "Teaching",
+  "Research",
+  "Teamwork",
 ];
 
-export const emailAddress = "a7medreda31@yahoo.com";
+export const emailAddress = "mostafa.261.mk@gmail.com";
 
 export const contactLinks = [
   {
     // Whatsapp
     iconPath: "/whatsapp.svg",
     // Add the URLS Below and uncomment!
-    url: "https://wa.me/201207928149",
+    url: "https://wa.me/201222903316",
   },
   {
     // LinkedIn
     iconPath: "/linkedin.svg",
     // Add the URLS Below and uncomment!
-    url: "https://www.linkedin.com/in/ahmed-reda-abd-elnaem-59a679237/",
+    url: "https://www.linkedin.com/in/mostafa-kamel-b979a0193/",
   },
   {
     // Github
     iconPath: "/github.svg",
     // Add the URLS Below and uncomment!
-    url: "https://github.com/AhmedReda31?fbclid=IwAR1UN-C0IZ6jFCWvkSjBdmDfTYUthjsF_V2bwOSwjf4ObbhokrJpSm2zTgk",
+    url: null,
   },
   {
     // Facebook
     iconPath: "/facebook.svg",
     // Add the URLS Below and uncomment!
-    url: "https://www.facebook.com/profile.php?id=100005980906632",
+    url: "https://web.facebook.com/mido.elmajek.967/",
   },
   {
     // X
@@ -176,6 +226,6 @@ export const contactLinks = [
     // Instagram
     iconPath: "/instagram.svg",
     // Add the URLS Below and uncomment!
-    url: "https://www.instagram.com/ahmedredaabdelnaem/",
+    url: "https://www.instagram.com/mostafa_kamel_12/",
   },
 ];

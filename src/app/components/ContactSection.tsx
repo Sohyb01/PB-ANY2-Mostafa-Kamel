@@ -31,7 +31,7 @@ const ContactSection = () => {
           </div>
         )}
         <a
-          href="https://wa.me/201023717157"
+          href="https://wa.me/27772584065"
           target="_blank"
           className="text-green-400 underline opacity-50 hover:opacity-100 w-fit mx-auto"
         >

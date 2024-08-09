@@ -20,19 +20,19 @@ export default function Home() {
       <IntroSection />
 
       {/* <!-- Education --> */}
-      {educationData.length && <EducationSection />}
+      {educationData.length > 0 && <EducationSection />}
 
       {/* <!-- Experience (and Activities) --> */}
-      {experienceData.length && <ExperienceSection />}
+      {experienceData.length > 0 && <ExperienceSection />}
 
       {/* <!-- Testimonials / Awards / Recommendations --> */}
-      {testimonialsData.length && <TestimonialsSection />}
+      {testimonialsData.length > 0 && <TestimonialsSection />}
 
       {/* Skills Section */}
-      {skillsData.length && <SkillsSection />}
+      {skillsData.length > 0 && <SkillsSection />}
 
       {/* <!-- Portfolio (Projects?) --> */}
-      {projectsData.length && <ProjectsSection />}
+      {projectsData.length > 0 && <ProjectsSection />}
 
       {/* Contact (Footer) */}
       <ContactSection />

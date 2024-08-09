@@ -19,7 +19,7 @@ const futura = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Ahmed Reda Abd El-Naeem",
+  title: "Mostafa Kamel Ali",
   description: "Personal Portfolio",
 };
 
