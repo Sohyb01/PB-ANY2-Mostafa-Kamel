@@ -16,7 +16,7 @@ const ProjectsSection = () => {
         </div>
         {/* Projects Container */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 grid-flow-row items-center justify-between">
-          {projectsData.map((project, index) => (
+          {/* {projectsData.map((project, index) => (
             <div key={index} className="flex flex-col gap-1">
               <div className="flex items-center gap-2 text-xl">
                 <h1 className="font-normal text-slate-800">0{index + 1}</h1>
@@ -38,7 +38,7 @@ const ProjectsSection = () => {
                 </a>
               )}
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </section>

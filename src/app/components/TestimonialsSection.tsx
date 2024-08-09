@@ -16,7 +16,7 @@ const TestimonialsSection = () => {
         </div>
         {/* Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {testimonialsData.map((testimonial, index) => (
+          {/* {testimonialsData.map((testimonial, index) => (
             <div
               key={index}
               className="bg-white p-4 rounded-[6px] shadow-lg flex flex-col gap-2 border-b-[4px] border-orange-300"
@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
                 {testimonial.date}
               </p>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </section>
