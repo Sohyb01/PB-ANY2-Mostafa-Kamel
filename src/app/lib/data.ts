@@ -45,6 +45,24 @@ export const educationData = [
     url: "", // Optional URL
   },
   {
+    title: "Digital Media and Marketing Principles",
+    date: "",
+    description: "Duke University",
+    url: "", // Optional URL
+  },
+  {
+    title: "Programmatic Advertising",
+    date: "",
+    description: "eCornell",
+    url: "", // Optional URL
+  },
+  {
+    title: "Data Science for Marketing Analytics",
+    date: "",
+    description: "Coursera",
+    url: "", // Optional URL
+  },
+  {
     title: "Machine Learning (95)",
     date: "2022",
     description: "University of London",
@@ -106,6 +124,20 @@ export const experienceData = [
     city: "Alexandria, Egypt",
     year: "2022-Present",
     position: "Co-Founder, Cheif Executive Officer",
+    description: [],
+  },
+  {
+    title: "OBM Education",
+    city: "Cairo, Egypt",
+    year: "2019-2020",
+    position: "Marketing Director",
+    description: [],
+  },
+  {
+    title: "Freelance",
+    city: "Alexandria, Egypt",
+    year: "2020-2024",
+    position: "Media Buyer & Data Analyst",
     description: [],
   },
   {
